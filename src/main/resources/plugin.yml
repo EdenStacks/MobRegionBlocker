@@ -1,0 +1,8 @@
+name: MobRegionBlocker
+version: '${project.version}'
+main: fr.edencraft.mobregionblocker.MobRegionBlocker
+api-version: 1.18
+prefix: MobRegionBlocker
+depend: [ WorldGuard, MythicMobs, WorldEdit ]
+authors: [ NayeOne, Hope51 ]
+description: Allow to block mob in worldguard region.
