@@ -46,6 +46,7 @@ public class MRBCommand extends BaseCommand {
             }
         } else {
             configurationManager.reloadFiles();
+            updateOnlySpawnRegionList();
             sender.sendMessage(new ColoredText(messages.getString("reload-all")).treat());
         }
     }
